@@ -50,4 +50,4 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For questions or further information, please reach out at [psp5205@psu.edu].
+For questions or further information, please reach out at [pranavg24051@gmail.com].
