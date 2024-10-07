@@ -11,27 +11,23 @@ Requirements
 Install the required packages using the provided requirements.txt file:
 
 bash
-Copy code
 pip install -r requirements.txt
+
 Installation
 Step 1: Clone the repository
-bash
-Copy code
-git clone https://github.com/your_username/universal-web-scraper.git
-cd universal-web-scraper
+bash git clone https://github.com/your_username/universal-web-scraper.git
+     cd universal-web-scraper
 Step 2: Set up the environment
-Create a .env file in the root directory with the following keys (replace with your actual keys):
-plaintext
-Copy code
+     Create a .env file in the root directory with the following keys (replace with your actual keys):
 OPENAI_API_KEY=your_openai_api_key
 GOOGLE_API_KEY=your_google_api_key
 GROQ_API_KEY=your_groq_api_key
 Ensure that the ChromeDriver path in scraper.py is correctly set to your local ChromeDriver executable.
+
 Step 3: Run the Streamlit application
 To launch the web interface, run:
 
-bash
-Copy code
+bash/terminal
 streamlit run streamlit_app.py
 This will open the Streamlit application in your browser.
 
@@ -39,6 +35,7 @@ Usage
 Open the Streamlit Interface: Enter the URL you want to scrape, choose a model, and specify the fields to extract.
 Start Scraping: Click the Scrape button on the sidebar to begin scraping. The application will display the extracted data, as well as the token usage and estimated cost based on the model selected.
 Download Results: After scraping, download the results in your preferred format (JSON, CSV, or Markdown).
+
 Project Structure
 assets.py: Contains configuration variables and constants used across the project.
 scraper.py: Handles the web scraping logic and data processing.
@@ -53,4 +50,4 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For questions or further information, please reach out at [your.email@example.com].
+For questions or further information, please reach out at [psp5205@psu.edu].
