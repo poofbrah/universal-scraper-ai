@@ -15,14 +15,14 @@ pip install -r requirements.txt
 
 Installation
 Step 1: Clone the repository
-bash git clone https://github.com/your_username/universal-web-scraper.git
+bash git clone https://github.com/poofbrah/universal-web-scraper.git
      cd universal-web-scraper
 Step 2: Set up the environment
      Create a .env file in the root directory with the following keys (replace with your actual keys):
 OPENAI_API_KEY=your_openai_api_key
 GOOGLE_API_KEY=your_google_api_key
 GROQ_API_KEY=your_groq_api_key
-Ensure that the ChromeDriver path in scraper.py is correctly set to your local ChromeDriver executable.
+Ensure that the ChromeDriver(can be downloaded from the chrome website) path in scraper.py is correctly set to your local ChromeDriver executable.
 
 Step 3: Run the Streamlit application
 To launch the web interface, run:
